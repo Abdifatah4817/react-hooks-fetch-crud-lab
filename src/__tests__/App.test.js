@@ -1,7 +1,7 @@
 // src/__tests__/App.test.js
 import React from "react";
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect"; // <-- important
+import '@testing-library/jest-dom';
 import App from "../components/App";
 
 // Mock fetch globally for all tests
